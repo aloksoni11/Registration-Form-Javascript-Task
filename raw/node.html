@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Title </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .main {
+            height: 300px;
+            width: 300px;
+            background-color: orange;
+        }
+        
+        .subdiv {
+            height: 80%;
+            width: 80%;
+            background-color: aqua;
+        }
+        
+        .child {
+            height: 80%;
+            width: 80%;
+            background-color: red;
+        }
+        
+        .first {
+            height: 200px;
+            width: 200px;
+            background-color: pink;
+            float: left;
+        }
+        
+        .second {
+            height: 200px;
+            width: 200px;
+            background-color: yellow;
+            float: left;
+        }
+        
+        .parent {
+            overflow: auto;
+            /*            height: 500px;*/
+            background-color: purple;
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main" id="orange">
+        <div class="subdiv" id="cyan">
+            <div class="child" id="red" onclick="red(this)"></div>
+        </div>
+    </div>
+    <div class="parent">
+        <div class="first"> </div>
+        <div class="second"> </div>
+    </div>
+    <script src="js/method1.js"></script>
+</body>
+
+</html>

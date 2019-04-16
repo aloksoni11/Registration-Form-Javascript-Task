@@ -1,0 +1,14 @@
+.Update {
+    height: 420px;
+    width: 400px;
+    background-color: #a6b3ac;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    display: none;
+    color: blue;
+}
