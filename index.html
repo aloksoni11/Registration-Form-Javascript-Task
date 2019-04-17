@@ -8,7 +8,8 @@
     <title> pOPOp </title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css" /> </head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
 
 <body class="h-100">
     <div class="container w-50 py-4 bg-light" id="bd">
@@ -19,7 +20,8 @@
                 <label for="name">Name:</label>
                 <input type="Text" class="form-control" id="name" placeholder="Enter Name" name="name"> </div>
             <label for="email">Email:</label>
-            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required> </div>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+        </div>
         <div class="form-group">
             <label for="pwd">Password:</label>
             <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd"> </div>
@@ -41,22 +43,23 @@
             </thead>
         </table>
     </div>
-    <div class="Update px-4" id="Update">
-        <button name="close" class="float-right  mt-2" onclick="closeB()"><i class="fa fa-times" aria-hidden="true"></i> </button>
-        <div class="form-group text-center">
-            <h2 class="display-4">UPDATE</h2> </div>
-        <div class="form-group">
-            <label>Name:</label>
-            <input type="text" class="form-control" placeholder="Enter Name" id="uname"> </div>
-        <div class="form-group">
-            <label>Email:</label>
-            <input type="text" class="form-control" placeholder="Enter Email" id="uemail"> </div>
-        <div class="form-group">
-            <label>Password:</label>
-            <input type="text" class="form-control" placeholder="Enter Password" id="upwd"> </div>
-        <button type="submit" class="btn btn-secondary btn-lg btn-block" onclick="updatepo()">Update</button>
-    </div>
+    <section class="update-container" id="update-container">
+        <div class="Update px-4" id="Update">
+            <span name="close" class="float-right  mt-2" onclick="closeB()"><i class="fa fa-times" aria-hidden="true"></i> </span>
+            <div class="form-group text-center">
+                <h2 class="display-4">UPDATE</h2>
+            </div>
+            <div class="form-group">
+                <label>Name:</label>
+                <input type="text" class="form-control" placeholder="Enter Name" id="uname"> </div>
+            <div class="form-group">
+                <label>Email:</label>
+                <input type="text" class="form-control" placeholder="Enter Email" id="uemail"> </div>
+            <div class="form-group">
+                <label>Password:</label>
+                <input type="text" class="form-control" placeholder="Enter Password" id="upwd"> </div>
+            <button type="submit" class="btn btn-secondary btn-lg btn-block" onclick="updatepo()">Update</button>
+        </div>
+    </section>
     <script src="js/main.js"></script>
-</body>
-
-</html>
+</body></html>
